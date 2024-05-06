@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1190dad2.css",
+    "main.js": "/static/js/main.6c0edb71.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/mochi-mad.gif": "/static/media/mochi-mad.6f88b566b2f892b0c1ff.gif",
+    "static/media/mix_1m30s (audio-joiner.com).mp3": "/static/media/mix_1m30s (audio-joiner.com).772be59fe11c1e93900c.mp3",
+    "static/media/hi-waving.gif": "/static/media/hi-waving.8ca9189d20949b3cebca.gif",
+    "static/media/Premika-Ne-Pyar-Se-Ringtone-Download.mp3": "/static/media/Premika-Ne-Pyar-Se-Ringtone-Download.4e2d6f759af6baee6d75.mp3",
+    "static/media/Couple Love GIF by The Valentines - Find & Share on GIPHY.gif": "/static/media/Couple Love GIF by The Valentines - Find & Share on GIPHY.32a0bb81b4ef621fa394.gif",
+    "static/media/cry.gif": "/static/media/cry.7a67f6b14d1a3093c9ae.gif",
+    "static/media/vector.png": "/static/media/vector.9833aa0c822bfdbaeca4.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.1190dad2.css.map": "/static/css/main.1190dad2.css.map",
+    "main.6c0edb71.js.map": "/static/js/main.6c0edb71.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1190dad2.css",
+    "static/js/main.6c0edb71.js"
+  ]
+}

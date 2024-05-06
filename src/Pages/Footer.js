@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { jwtDecode } from "jwt-decode";
+import '../App.css'
 export function Footer() {
   const [token, setToken] = useState({});
   useEffect(() => {
@@ -16,7 +17,7 @@ export function Footer() {
   return (
     <>
       
-        <div className="container footer">
+        <div className="footer ">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
               <p>

@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 * {
   margin: 0;
@@ -6,12 +7,17 @@
   font-family: "Quicksand", sans-serif;
 }
 
+
 .App{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  
+
 
 }
+
+
 
 
 body {
@@ -31,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+ 
 }
 .ring i {
   position: absolute;
@@ -57,18 +63,18 @@ body {
 }
 @keyframes animate {
   0% {
-    transform: rotate(0deg);
+        transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+        transform: rotate(360deg);
   }
 }
 @keyframes animate2 {
   0% {
-    transform: rotate(360deg);
+        transform: rotate(360deg);
   }
   100% {
-    transform: rotate(0deg);
+        transform: rotate(0deg);
   }
 }
 .login {
@@ -123,8 +129,8 @@ body {
   color: #fff;
   text-decoration: none;
 }
-         
-         
+             
+             
 .btn-grad {
   background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
   margin: 10px;
@@ -133,11 +139,12 @@ body {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;                
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
 }
+
 
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
@@ -146,11 +153,15 @@ body {
 }
 
 
+
+
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+        padding: 60px 0;
 }
+
+
 
 
 span{
@@ -159,94 +170,114 @@ span{
 }
 
 
+
+
 .footer {
-    background: transparent !important;
-    margin-top: auto;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-   
-    
-   
+        
+        margin-top: auto;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        margin-left: 40px;
+        
+       
+  
+        
+  
+
 
 }
+
+
+
+.con-1{
+  width: 100%;
+}
+
 
 .footer p{
   font-weight: bold;
   color: black;
   font-size: 20px;
+  margin-top: 65px;
+  
 }
 
+
 #footer h5{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
+padding-left: 10px;
+        border-left: 3px solid #eeeeee;
+        padding-bottom: 6px;
+        margin-bottom: 20px;
+        color:#ffffff;
 }
 #footer a {
-    color: #ffffff;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+        color: #ffffff;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
 }
 #footer ul.social li{
-	padding: 3px 0;
+padding: 3px 0;
 }
 #footer ul.social li a i {
-    margin-right: 5px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+        margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
 }
 #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+font-size:30px;
+margin-top:-10px;
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-	color:#ffffff;
+color:#ffffff;
 }
 #footer ul.social li a:hover{
-	color:#eeeeee;
+color:#eeeeee;
 }
 #footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
 }
 #footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
 }
 #footer ul.quick-links li a i{
-	margin-right: 5px;
+margin-right: 5px;
 }
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+        font-weight: 700;
 }
 
+
 @media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
+#footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
 }
 }
-.myImage {
+.myImage-1 {
   max-width: 200px; /* Adjust as needed */
   max-height: 200px; /* Adjust as needed */
-  margin-left: 598px;
+  margin-left: 643px;
   margin-bottom: 20px;
 }
 
+
 .prText{
   font-weight: bold;
+  margin-left: 73px;
 }
+
 
 .button-col {
   margin: 0 10px; /* Adjust the margin value as needed */
@@ -254,9 +285,24 @@ span{
 .button-container {
   display: flex;
   justify-content: center; /* Horizontally center buttons */
-  align-items: center; 
-  margin-left: 630px;
+  align-items: center;
+  margin-left: 610px;
   /* Vertically center buttons (optional) */
 }
 
+.foo{
+  margin-bottom: 50px;
+  background-color: white;
+}
 
+
+#noButton {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

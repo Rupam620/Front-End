@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import React, { useState , useEffect} from "react";
+import React, { useState , useEffect , } from "react";
 import Login from "./Component/Login";
 import Register from "./Component/Register"
 import { Loveone } from "./Pages/Loveone";
@@ -11,15 +11,15 @@ import { UserProvider } from "./Context/UserContext";
 import { Footer } from "./Pages/Footer";
 import {  BrowserRouter , Routes, Route ,Navigate } from 'react-router-dom';
 import "./App.css";
-import song from "./Images/Premika-Ne-Pyar-Se-Ringtone-Download.mp3"
-
+import song from "./Images/mix_1m30s (audio-joiner.com).mp3"
+import songOne from "./Images/Premika-Ne-Pyar-Se-Ringtone-Download.mp3"
 function App() {
   
 
   const [loggedIn, setLoggedIn] = useState(false);
-
+  
   useEffect(() => {
-    const audio = new Audio(song);
+        const audio =  new Audio(song) ;
     
 
     const handleEnded = () => {
@@ -35,7 +35,7 @@ function App() {
       audio.pause();
       audio.currentTime = 0;
     }
-  }, [loggedIn]);
+  }, [loggedIn ]);
 
   console.log(loggedIn)
   
@@ -49,7 +49,7 @@ function App() {
       <Routes>
         <Route path="/" element={loggedIn ? <Navigate to="/register" /> : <Login setLoggedIn={setLoggedIn} />} />
         <Route path="/register" element={loggedIn ? <Register /> : <Navigate to="/" />} />
-        <Route path="/pageone" element={<Loveone/>}/>
+        <Route path="/pageone" element={loggedIn?<Loveone isLoggedIn={loggedIn}/>:<Navigate to="/" />}/>
         <Route path="/pagetwo" element={<Lovetwo/>}/>
         <Route path="/pagethree" element={<Lovethree/>}/>
         <Route path="/pagefour" element={<Lovefour/>}/>
@@ -59,10 +59,11 @@ function App() {
       
     </BrowserRouter>
  
-    {loggedIn === true ? <Footer /> : null}
+    {/* {loggedIn === true ? <Footer /> : null} */}
     </div>
     </>     
   );
 }
 
 export default App;
+

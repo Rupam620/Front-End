@@ -7,6 +7,7 @@ import myGif2 from '../Images/cry.gif';
 import Button from 'react-bootstrap/Button';
 import '../App.css'
 import { useNavigate } from 'react-router-dom';
+import { Footer } from './Footer';
 export  function Lovetwo() {
     const navigate = useNavigate();
    const [token,setToken]=useState({});
@@ -18,7 +19,7 @@ export  function Lovetwo() {
     console.log(JSON.stringify(token));
   }, []);
 
-  
+  console.log();
        
   return (
     <>
@@ -28,7 +29,7 @@ export  function Lovetwo() {
       
    <Row>
     <Col md={12}>
-      <img  className = 'myImage d-flex justify-content-center align-items-center' src={myGif2} alt='' />
+      <img  className = 'myImage-1 d-flex justify-content-center align-items-center' src={myGif2} alt='' />
     </Col>
     <Col md={12}>
         <h2 className='prText' > Vebe ne thik koreeeyyyy!!! {String.fromCodePoint("128580")} </h2>
@@ -44,7 +45,9 @@ export  function Lovetwo() {
         </div>
     </Row>
    </Row>
+ 
     </Container>
+    <Footer className="mt-5"/>
     </>
   )
 }

@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import myGif3 from '../Images/Couple Love GIF by The Valentines - Find & Share on GIPHY.gif'; 
 import Button from 'react-bootstrap/Button';
 import '../App.css'
+import { Footer } from './Footer';
 import { useNavigate } from 'react-router-dom';
 export  function Lovethree() {
     const navigate = useNavigate();
@@ -28,7 +29,7 @@ export  function Lovethree() {
       
    <Row>
     <Col md={12}>
-      <img  className = 'myImage d-flex justify-content-center align-items-center' src={myGif3} alt='' />
+      <img  className = 'myImage-1 d-flex justify-content-center align-items-center' src={myGif3} alt='' />
     </Col>
     <Col md={12}>
         <h2 className='prText' > Sesh barer moto vebe ne ? {String.fromCodePoint("128547")} </h2>
@@ -45,6 +46,7 @@ export  function Lovethree() {
     </Row>
    </Row>
     </Container>
+    <Footer className="mt-5"/>
     </>
   )
 }
